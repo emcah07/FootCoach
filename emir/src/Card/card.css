@@ -1,0 +1,67 @@
+
+.cardinside img{
+    width: 75px;
+}
+.cardinside2 img{
+    width: 150px;
+    padding-top: 50px;
+    margin: 0;
+}
+.cardleft{
+    padding-left: 100px;
+    text-align: center;
+}
+.cardinside{
+    display: flex;
+    column-gap: 25px;
+}
+.cardleft h4{
+    font-size: 48px;
+}
+.cardright{
+    display: flex;
+    column-gap: 50px;
+}
+.cardinfo h6{
+    font-size: 20px;
+    color: #747bff;
+    margin: 0;
+    padding-top: 25px;
+}
+.cardinfo h4{
+    font-size: 40px;
+    margin: 0;
+}
+.rightinfo{
+    width: 300px;
+    text-align: center;
+}
+.rightinfo h4{
+    font-size: 40px;
+    border-bottom: 1px solid gray;
+}
+.infoinside img{
+    width: 75px;
+}
+.infoinside h6{
+    color: #747bff;
+    font-size: 14px;
+}
+.infoinside{
+    display: flex;
+    padding-left: 50px;
+    column-gap: 50px;
+}
+.skill h3{
+    font-size: 20px;
+}
+#skillissue{
+    color: #747bff;
+    font-size: 14px;
+}
+.skill{
+    background: darkslateblue;
+    margin: 0;
+    height: 50px;
+    text-align: center;
+}
