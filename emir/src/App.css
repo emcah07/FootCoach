@@ -1,4 +1,6 @@
 .appall{
     display: flex;
-    column-gap: 100px;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
 }
