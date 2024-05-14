@@ -8,7 +8,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route path="/:id" element={<App />} />
+        <Route path="/player/:id" element={<App />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
