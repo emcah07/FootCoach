@@ -12,7 +12,8 @@
 }
 .cardinside{
     display: flex;
-    column-gap: 25px;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 .cardleft h4{
     font-size: 48px;
@@ -28,8 +29,8 @@
     padding-top: 25px;
 }
 .cardinfo h4{
-    font-size: 40px;
-    margin: 0;
+    font-size: 20px;
+   
 }
 .rightinfo{
     width: 300px;
