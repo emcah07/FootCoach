@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import logo from "../pics/logo.png";
 import "./card.css";
 import davies from "../pics/davies A.webp";
 import Pocketbase from "pocketbase";
@@ -44,9 +45,9 @@ const Card = () => {
             <p>{player.expand.footcard_clubs_id?.name}</p>
 
             <div className={"cardinside"}>
-              <img src={"favicon.ico"} alt="" />
-              <img src={"favicon.ico"} alt="" />
-              <img src={"favicon.ico"} alt="" />
+              <img src={logo} alt="" />
+              <img src={logo} alt="" />
+              <img src={logo} alt="" />
             </div>
             <div className="cardtype">
               <div className={"cardinfo"}>
